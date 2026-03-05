@@ -1,0 +1,22 @@
+# Python cache files (created when you run scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (if you ever decide to use one)
+venv/
+env/
+.env
+
+# OS generated hidden files (Mac/Windows junk)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Any IDE specific files (VSCode, PyCharm)
+.vscode/
+.idea/

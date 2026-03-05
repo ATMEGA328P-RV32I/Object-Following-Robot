@@ -1,7 +1,12 @@
 # Raspberry Pi Vision Tracker Robot
 
 An autonomous Raspberry Pi-based robot that uses OpenCV and Picamera2 to track a visual target while avoiding obstacles.
+
 Board used - Raspberry Pi 4B
+
+camera - Raspberry Pi 5MP camera
+
+Motor driver - L298N
 
 This project features multi-scale template matching (so the robot recognizes the target as it gets closer/further) and adaptive lighting (automatically applying CLAHE to see into shadows when the environment gets dark).
 

@@ -31,28 +31,29 @@ Ensure your files are structured like this before running the code. The `targets
 ├── main.py                <-- Main robot script
 ├── requirements.txt       <-- Python pip dependencies
 └── README.md
+```
 
 ## Installation and Setup
 1. Install System-Level Dependencies
 picamera2 and pigpio require system-level installation on Raspberry Pi OS. Run this in your terminal:
-
+```
 sudo apt update
 sudo apt install python3-picamera2 python3-pigpio
-
+```
 2. Enable and Start the PiGPIO Daemon
 The motor controls and ultrasonic sensor rely on the pigpiod service. Enable it so it runs in the background:
-
+```
 sudo systemctl enable pigpiod
 sudo systemctl start pigpiod
-
+```
 3. Install Python Libraries
 Install the remaining computer vision and math libraries:
-
+```
 pip install -r requirements.txt
-
+```
 ## How to Run
 Once everything is wired and installed, place your target image (box.jpg) in the targets folder and run the script:
-
+```
 python3 main.py
-
+```
 Press Ctrl+C to stop the robot and exit the script

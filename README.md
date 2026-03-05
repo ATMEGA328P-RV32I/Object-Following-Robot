@@ -1,4 +1,4 @@
-# Raspberry Pi Vision Tracker Robot
+# Raspberry Pi Object Following Robot using OpenCV
 
 An autonomous Raspberry Pi-based robot that uses OpenCV and Picamera2 to track a visual target while avoiding obstacles.
 
